@@ -18,7 +18,7 @@ a {
 
 
 .logo {
-    font-family: "Raleway", sans-serif;
+    
 font-weight: 700;
 font-size: 18px; 
 line-height: 1.17;
@@ -34,7 +34,6 @@ color: #4d5ae5;
 
 
 .link-nav {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +52,6 @@ color: #4d5ae5;
 }
 
 .link-address {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -61,13 +59,16 @@ color: #4d5ae5;
     color: #434455;
 }
 
+.link-address:hover,
+.link-address:focus {
+    color: #404bbf;
+}
 
 .business {
     background-color: #2e2f42;
 }
 
 .title-business {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -77,7 +78,6 @@ color: #4d5ae5;
 }
 
 .button-business {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -88,10 +88,13 @@ color: #4d5ae5;
 }
 
 
+.button-business:hover,
+.button-business:focus {
+    background-color: #404BBF;
+}
 
 
 .title-benefits {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -100,7 +103,6 @@ color: #4d5ae5;
 }
 
 .article-benefits {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -114,14 +116,13 @@ color: #4d5ae5;
     background-color: #f4f4fd;
 }
 
-.list-team {
+
+.li-team {
     background-color: #FFFFFF;
 }
 
-
 .title-team {
     text-transform: capitalize;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -131,7 +132,6 @@ color: #4d5ae5;
 }
 
 .title-team-members {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -141,7 +141,6 @@ color: #4d5ae5;
 }
 
 .article-team {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -154,7 +153,6 @@ color: #4d5ae5;
 
 .title-portfolio {
     text-transform: capitalize;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -164,7 +162,6 @@ color: #4d5ae5;
 }
 
 .pid-title-portfolio {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -173,7 +170,6 @@ color: #4d5ae5;
 }
 
 .article-portfolio {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -191,7 +187,6 @@ color: #4d5ae5;
 }
 
 .article-footer {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
